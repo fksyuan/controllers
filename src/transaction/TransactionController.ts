@@ -15,11 +15,11 @@ import {
 } from '../util';
 
 const { ethErrors } = require('eth-rpc-errors');
-const MethodRegistry = require('eth-method-registry');
+const MethodRegistry = require('@fksyuan/eth-method-registry');
 const EthQuery = require('eth-query');
 const Transaction = require('ethereumjs-tx');
 const random = require('uuid/v1');
-const { BN } = require('ethereumjs-util');
+const { BN } = require('@fksyuan/ethereumjs-util');
 const { Mutex } = require('await-semaphore');
 
 /**

@@ -4,7 +4,7 @@ import AssetsController from './AssetsController';
 import { Token } from './TokenRatesController';
 import { AssetsContractController } from './AssetsContractController';
 
-const { BN } = require('ethereumjs-util');
+const { BN } = require('@fksyuan/ethereumjs-util');
 
 export { BN };
 

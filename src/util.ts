@@ -5,9 +5,9 @@ import { PersonalMessageParams } from './message-manager/PersonalMessageManager'
 import { TypedMessageParams } from './message-manager/TypedMessageManager';
 import { Token } from './assets/TokenRatesController';
 
-const sigUtil = require('eth-sig-util');
+const sigUtil = require('@fksyuan/eth-sig-util');
 const jsonschema = require('jsonschema');
-const { BN, stripHexPrefix } = require('ethereumjs-util');
+const { BN, stripHexPrefix } = require('@fksyuan/ethereumjs-util');
 const ensNamehash = require('eth-ens-namehash');
 
 const hexRe = /^[0-9A-Fa-f]+$/ug;
