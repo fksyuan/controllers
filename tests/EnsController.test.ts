@@ -1,4 +1,4 @@
-import { toChecksumAddress } from '@fksyuan/ethereumjs-util';
+import { toChecksumAddress } from 'ethereumjs-util';
 
 import EnsController from '../src/third-party/EnsController';
 

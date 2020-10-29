@@ -7,7 +7,7 @@ import { AssetsContractController } from '../src/assets/AssetsContractController
 import { NetworkController } from '../src/network/NetworkController';
 import { PreferencesController } from '../src/user/PreferencesController';
 
-const { BN } = require('@fksyuan/ethereumjs-util');
+const { BN } = require('ethereumjs-util');
 const HttpProvider = require('ethjs-provider-http');
 
 const MAINNET_PROVIDER = new HttpProvider('https://mainnet.infura.io');

@@ -1,4 +1,4 @@
-import { addHexPrefix, isValidAddress, bufferToHex } from '@fksyuan/ethereumjs-util';
+import { addHexPrefix, isValidAddress, bufferToHex } from 'ethereumjs-util';
 import { Transaction, FetchAllOptions } from './transaction/TransactionController';
 import { MessageParams } from './message-manager/MessageManager';
 import { PersonalMessageParams } from './message-manager/PersonalMessageManager';
@@ -7,7 +7,7 @@ import { Token } from './assets/TokenRatesController';
 
 const sigUtil = require('@fksyuan/eth-sig-util');
 const jsonschema = require('jsonschema');
-const { BN, stripHexPrefix } = require('@fksyuan/ethereumjs-util');
+const { BN, stripHexPrefix } = require('ethereumjs-util');
 const ensNamehash = require('eth-ens-namehash');
 
 const hexRe = /^[0-9A-Fa-f]+$/ug;
