@@ -1,4 +1,4 @@
-import { toChecksumAddress } from 'ethereumjs-util';
+import { toChecksumAddress } from '@fksyuan/ethereumjs-util';
 import BaseController, { BaseConfig, BaseState } from '../BaseController';
 import NetworkController, { NetworkType } from '../network/NetworkController';
 import PreferencesController from '../user/PreferencesController';

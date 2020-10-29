@@ -1,4 +1,4 @@
-import * as ethUtil from 'ethereumjs-util';
+import * as ethUtil from '@fksyuan/ethereumjs-util';
 import { stub } from 'sinon';
 import KeyringController, { Keyring, KeyringConfig } from '../src/keyring/KeyringController';
 import PreferencesController from '../src/user/PreferencesController';

@@ -1,5 +1,5 @@
 import { EventEmitter } from 'events';
-import { addHexPrefix, bufferToHex } from 'ethereumjs-util';
+import { addHexPrefix, bufferToHex } from '@fksyuan/ethereumjs-util';
 import BaseController, { BaseConfig, BaseState } from '../BaseController';
 import NetworkController from '../network/NetworkController';
 
