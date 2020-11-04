@@ -67,6 +67,8 @@ export function getBuyURL(networkCode = '1', address?: string, amount = 5) {
       return 'https://goerli-faucet.slock.it/';
     case '42':
       return 'https://github.com/kovan-testnet/faucet';
+    case '201018':
+      return 'https://www.rinkeby.io/';
   }
 }
 
